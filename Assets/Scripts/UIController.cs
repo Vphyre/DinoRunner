@@ -13,7 +13,7 @@ public class UIController : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-       gameOverScreen = gameObject.transform.GetChild(4).gameObject;
+       gameOverScreen = gameObject.transform.GetChild(0).gameObject;
        gameOverText = gameOverScreen.transform.GetChild(2).gameObject.GetComponent<Text>();
        gameOverScreen.SetActive(false);
        Time.timeScale = 1;
