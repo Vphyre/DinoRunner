@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-
 public class ButtonController : MonoBehaviour
 {
     public string scene;
@@ -21,10 +19,10 @@ public class ButtonController : MonoBehaviour
     }
     public void Load()
     {
-		  SceneManager.LoadScene(scene);
-	  } 
+		SceneManager.LoadScene(scene);
+	} 
     public void QuitGame()
     {
-		  Application.Quit();
-	  }
+		Application.Quit();
+	}
 }
